@@ -16,9 +16,11 @@ namespace WPFTest
     /// </summary>
     public partial class MainWindow : Window
     {
+        public bool running;
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
