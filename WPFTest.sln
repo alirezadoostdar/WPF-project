@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_DataBinding_INotifyProper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_FolderBrowserDialog", "11_FolderBrowserDialog\11_FolderBrowserDialog.csproj", "{D66B03A2-91D0-4720-96DA-C317F5E626CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_ListView", "12_ListView\12_ListView.csproj", "{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
