@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFTest", "WPFTest\WPFTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_DataBinding_INotifyPropertyChanged", "8_DataBinding_INotifyPropertyChanged\8_DataBinding_INotifyPropertyChanged.csproj", "{FFEFCF72-7F1B-48D2-9EC1-8A529549CFF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_FolderBrowserDialog", "11_FolderBrowserDialog\11_FolderBrowserDialog.csproj", "{D66B03A2-91D0-4720-96DA-C317F5E626CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FFEFCF72-7F1B-48D2-9EC1-8A529549CFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFEFCF72-7F1B-48D2-9EC1-8A529549CFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFEFCF72-7F1B-48D2-9EC1-8A529549CFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66B03A2-91D0-4720-96DA-C317F5E626CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
