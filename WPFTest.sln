@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_ListView", "12_ListView\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ListView2_ObsevableColection", "13_ListView2_ObsevableColection\13_ListView2_ObsevableColection.csproj", "{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_StackPanel", "14_StackPanel\14_StackPanel.csproj", "{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

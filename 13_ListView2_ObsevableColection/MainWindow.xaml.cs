@@ -43,7 +43,7 @@ namespace _13_ListView2_ObsevableColection
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-
+            Entries.Clear();
         }
 
         private void btnDel_Click(object sender, RoutedEventArgs e)
