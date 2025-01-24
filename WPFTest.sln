@@ -5,11 +5,13 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFTest", "WPFTest\WPFTest.csproj", "{E144079D-4B35-4926-B368-21884B4718CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_DataBinding_INotifyPropertyChanged", "8_DataBinding_INotifyPropertyChanged\8_DataBinding_INotifyPropertyChanged.csproj", "{FFEFCF72-7F1B-48D2-9EC1-8A529549CFF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_DataBinding_INotifyPropertyChanged", "8_DataBinding_INotifyPropertyChanged\8_DataBinding_INotifyPropertyChanged.csproj", "{FFEFCF72-7F1B-48D2-9EC1-8A529549CFF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_FolderBrowserDialog", "11_FolderBrowserDialog\11_FolderBrowserDialog.csproj", "{D66B03A2-91D0-4720-96DA-C317F5E626CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_FolderBrowserDialog", "11_FolderBrowserDialog\11_FolderBrowserDialog.csproj", "{D66B03A2-91D0-4720-96DA-C317F5E626CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_ListView", "12_ListView\12_ListView.csproj", "{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_ListView", "12_ListView\12_ListView.csproj", "{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ListView2_ObsevableColection", "13_ListView2_ObsevableColection\13_ListView2_ObsevableColection.csproj", "{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
