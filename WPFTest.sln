@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_FolderBrowserDialog", "1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_ListView", "12_ListView\12_ListView.csproj", "{B957F8D4-A2AF-45B3-A1CB-9F28C8C2E9DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ListView2_ObsevableColection", "13_ListView2_ObsevableColection\13_ListView2_ObsevableColection.csproj", "{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_ListView2_ObsevableColection", "13_ListView2_ObsevableColection\13_ListView2_ObsevableColection.csproj", "{DE7F94A3-7947-4EA1-9ADF-286CF7F6D6A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_StackPanel", "14_StackPanel\14_StackPanel.csproj", "{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_StackPanel", "14_StackPanel\14_StackPanel.csproj", "{F14C30B2-1A7D-49A1-BBE2-9D3CF68606C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_GridSplitter", "15_GridSplitter\15_GridSplitter.csproj", "{6FA1ADD3-9D93-485C-8F7E-9260AB0FA8CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_GridSplitter", "15_GridSplitter\15_GridSplitter.csproj", "{6FA1ADD3-9D93-485C-8F7E-9260AB0FA8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Expander", "16_Expander\16_Expander.csproj", "{F27E522D-586A-4946-AD4B-7341B5D78E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{6FA1ADD3-9D93-485C-8F7E-9260AB0FA8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA1ADD3-9D93-485C-8F7E-9260AB0FA8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA1ADD3-9D93-485C-8F7E-9260AB0FA8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27E522D-586A-4946-AD4B-7341B5D78E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27E522D-586A-4946-AD4B-7341B5D78E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27E522D-586A-4946-AD4B-7341B5D78E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27E522D-586A-4946-AD4B-7341B5D78E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
