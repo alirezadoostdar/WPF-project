@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_StackPanel", "14_StackPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_GridSplitter", "15_GridSplitter\15_GridSplitter.csproj", "{6FA1ADD3-9D93-485C-8F7E-9260AB0FA8CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Expander", "16_Expander\16_Expander.csproj", "{F27E522D-586A-4946-AD4B-7341B5D78E22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Expander", "16_Expander\16_Expander.csproj", "{F27E522D-586A-4946-AD4B-7341B5D78E22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_ScrollViewer", "17_ScrollViewer\17_ScrollViewer.csproj", "{CEC04C46-068B-4660-83FD-7D4D0FD3286F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_ScrollViewer", "17_ScrollViewer\17_ScrollViewer.csproj", "{CEC04C46-068B-4660-83FD-7D4D0FD3286F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_CustomeWindowsAndTitleBar", "18_CustomeWindowsAndTitleBar\18_CustomeWindowsAndTitleBar.csproj", "{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{CEC04C46-068B-4660-83FD-7D4D0FD3286F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEC04C46-068B-4660-83FD-7D4D0FD3286F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEC04C46-068B-4660-83FD-7D4D0FD3286F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
