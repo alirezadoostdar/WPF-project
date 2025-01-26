@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_ScrollViewer", "17_Scrol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_CustomeWindowsAndTitleBar", "18_CustomeWindowsAndTitleBar\18_CustomeWindowsAndTitleBar.csproj", "{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_ReusableStyleResource", "20_ReusableStyleResource\20_ReusableStyleResource.csproj", "{FE4985FB-58CF-457A-9FBC-90086C9D9596}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
