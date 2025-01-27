@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Expander", "16_Expander\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_ScrollViewer", "17_ScrollViewer\17_ScrollViewer.csproj", "{CEC04C46-068B-4660-83FD-7D4D0FD3286F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_CustomeWindowsAndTitleBar", "18_CustomeWindowsAndTitleBar\18_CustomeWindowsAndTitleBar.csproj", "{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_CustomeWindowsAndTitleBar", "18_CustomeWindowsAndTitleBar\18_CustomeWindowsAndTitleBar.csproj", "{C4C5744A-EDAA-4AF5-9301-EA0BF91C1E3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_ReusableStyleResource", "20_ReusableStyleResource\20_ReusableStyleResource.csproj", "{FE4985FB-58CF-457A-9FBC-90086C9D9596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_ReusableStyleResource", "20_ReusableStyleResource\20_ReusableStyleResource.csproj", "{FE4985FB-58CF-457A-9FBC-90086C9D9596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_UsingViewModelInMVVM", "23_UsingViewModelInMVVM\23_UsingViewModelInMVVM.csproj", "{98D67707-4A6C-44B1-9B48-5A74001397A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE4985FB-58CF-457A-9FBC-90086C9D9596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D67707-4A6C-44B1-9B48-5A74001397A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D67707-4A6C-44B1-9B48-5A74001397A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D67707-4A6C-44B1-9B48-5A74001397A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D67707-4A6C-44B1-9B48-5A74001397A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
