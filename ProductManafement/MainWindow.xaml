@@ -15,21 +15,30 @@
         <Border Grid.Column="0" Margin="2" Background="WhiteSmoke" Width="250"
                 HorizontalAlignment="Center" BorderThickness="2" BorderBrush="Gray">
             <StackPanel>
-                <Button Name="btnHome" Margin="20,30" Background="#3E454C" Height="50" Foreground="White"  FontSize="22">Home</Button>
-                <Button Name="btnEmployees" Margin="20,30" Background="#3E454C" Height="50" Foreground="White"  FontSize="22">Employees</Button>
-                <Button Name="btnCustomers" Margin="20,30" Background="#3E454C" Height="50" Foreground="White"  FontSize="22">Customers</Button>
-                <Button Name="btnProducts" Margin="20,30" Background="#3E454C" Height="50" Foreground="White"  FontSize="22">Products</Button>
+                <Button Name="btnHome" Margin="20,30" Background="#3E454C" Height="50" Foreground="White" Click="btnHome_Click"  FontSize="22">Home</Button>
+                <Button Name="btnEmployees" Margin="20,30" Background="#3E454C" Height="50" Foreground="White" Click="btnEmployees_Click"  FontSize="22">Employees</Button>
+                <Button Name="btnCustomers" Margin="20,30" Background="#3E454C" Height="50" Foreground="White" Click="btnCustomers_Click"  FontSize="22">Customers</Button>
+                <Button Name="btnProducts" Margin="20,30" Background="#3E454C" Height="50" Foreground="White" Click="btnProducts_Click" FontSize="22">Products</Button>
                 <Image Margin="10,40" Height="150" Width="150" Source="Resources/MehrLogo.png"/>
             </StackPanel>
         </Border>
 
         <Border Grid.Column="1" Margin="2" Background="Orange" BorderThickness="2"
-                BorderBrush="Gray" HorizontalAlignment="Stretch">
+                BorderBrush="Gray" HorizontalAlignment="Stretch" Name="HomePanel">
             <StackPanel HorizontalAlignment="Stretch">
                 <Label FontSize="32" FontWeight="Heavy" HorizontalAlignment="Center" FontFamily="Vazir" Margin="0,50,0,0">
                     Welcome to Mehr Product App
                 </Label>
             </StackPanel>
+        </Border>
+        <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="EmployeePanel">
+            <Label FontSize="48" HorizontalAlignment="Center">We are in Employee page</Label>
+        </Border>
+        <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="CustomerPanel">
+            <Label FontSize="48" HorizontalAlignment="Center">We are in customer page</Label>
+        </Border>
+        <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="ProductPanel">
+            <Label FontSize="48" HorizontalAlignment="Center">We are in product page</Label>
         </Border>
     </Grid>
 </Window>

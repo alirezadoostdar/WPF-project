@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_ReusableStyleResource", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_UsingViewModelInMVVM", "23_UsingViewModelInMVVM\23_UsingViewModelInMVVM.csproj", "{98D67707-4A6C-44B1-9B48-5A74001397A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManafement", "ProductManafement\ProductManafement.csproj", "{82BACE91-A794-416D-9D41-329C1DCE4A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManafement", "ProductManafement\ProductManafement.csproj", "{82BACE91-A794-416D-9D41-329C1DCE4A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9B8CEB4F-40BA-4C8C-997C-21803E8CB414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{82BACE91-A794-416D-9D41-329C1DCE4A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82BACE91-A794-416D-9D41-329C1DCE4A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82BACE91-A794-416D-9D41-329C1DCE4A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8CEB4F-40BA-4C8C-997C-21803E8CB414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8CEB4F-40BA-4C8C-997C-21803E8CB414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8CEB4F-40BA-4C8C-997C-21803E8CB414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8CEB4F-40BA-4C8C-997C-21803E8CB414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
