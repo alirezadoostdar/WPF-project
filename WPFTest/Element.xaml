@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPFTest.Element"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest"
+        mc:Ignorable="d"
+        Title="Element" Height="450" Width="800">
+    <StackPanel>
+        <Expander Header="Details">
+            <StackPanel>
+                <CheckBox >Check box 1</CheckBox>
+                <CheckBox >Check box 1</CheckBox>
+                <CheckBox >Check box 1</CheckBox>
+                <CheckBox >Check box 1</CheckBox>
+            </StackPanel>
+        </Expander>
+        <GroupBox Header="Group box">
+            <WrapPanel>
+                <RadioButton GroupName="group1">Item1</RadioButton>
+                <RadioButton GroupName="group2">Item2</RadioButton>
+                <RadioButton GroupName="group3">Item3</RadioButton>
+                <RadioButton GroupName="group4">Item4</RadioButton>
+            </WrapPanel>
+        </GroupBox>
+
+        <GroupBox>
+            <StackPanel>
+                <RadioButton GroupName="group2">Item 11</RadioButton>
+                <RadioButton GroupName="group2">Item 11</RadioButton>
+                <RadioButton GroupName="group2">Item 11</RadioButton>
+                <RadioButton GroupName="group2">Item 11</RadioButton>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>
