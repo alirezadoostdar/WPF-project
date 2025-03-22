@@ -7,11 +7,14 @@
         xmlns:userControls="clr-namespace:WPFTest.View.UserControls"
         mc:Ignorable="d"
         Title="Form1" Height="450" Width="270" FlowDirection="RightToLeft">
-    <Canvas >
-        <Rectangle Fill="LightBlue" Width="50" Height="30"></Rectangle>
-        <Rectangle Fill="Red" Width="50" Height="30"></Rectangle>
-        <Rectangle Fill="Yellow" Width="50" Height="30"></Rectangle>
-        <Rectangle Fill="Green" Width="50" Height="30"></Rectangle>
-        <Rectangle Fill="BlueViolet" Width="50" Height="30"></Rectangle>
-    </Canvas>
+    <UniformGrid Columns="3" Rows="3">
+        <Button>button1</Button>
+        <Button>button1</Button>
+        <Button>button1</Button>
+        <Button>button1</Button>
+        <Button>button1</Button>
+        <Button>button1</Button>
+        <Button>button1</Button>
+        <Button>button1</Button>
+    </UniformGrid>
 </Window>
