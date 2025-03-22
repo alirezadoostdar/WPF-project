@@ -23,7 +23,7 @@ namespace _23_UsingViewModelInMVVM.MVVM
             this.canExecute = canExecute;
         }
         public bool CanExecute(object? parameter)
-        {
+        {  
             return canExecute ==null || canExecute(parameter);
         }
 

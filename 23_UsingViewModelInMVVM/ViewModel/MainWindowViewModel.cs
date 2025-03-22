@@ -38,7 +38,7 @@ namespace _23_UsingViewModelInMVVM.ViewModel
         private Item selectedItem;
         public Item SelectedItem
         {
-            get { return selectedItem; }
+            get { return selectedItem; } 
             set
             {
                 selectedItem = value;
