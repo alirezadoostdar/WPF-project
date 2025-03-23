@@ -8,14 +8,7 @@ namespace _23_UsingViewModelInMVVM
 
     public partial class MainWindow : Window
     {
-        public static readonly DependencyProperty TextProperty =
-    DependencyProperty.Register("Text", typeof(string), typeof(MyControl));
 
-        public string Text
-        {
-            get { return (string)GetValue(TextProperty); }
-            set { SetValue(TextProperty, value); }
-        }
         public MainWindow()
         {
             InitializeComponent();
