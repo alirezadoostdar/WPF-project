@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPFTest.Converters.ConvertWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest.Converters"
+        xmlns:convertors="clr-namespace:WPFTest.Converters"
+        mc:Ignorable="d"
+        Title="ConvertWindow" Height="300" Width="400">
+    <Window.Resources>
+        <convertors:YesNoBoolConvert x:Key="yesNoConvert"/>
+        <convertors:ResultConvertor x:Key="resultConvert"/>
+        <convertors:ResultColorConvert x:Key="resultColorConvert"/>
+    </Window.Resources>
+    <StackPanel>
+        <StackPanel>
+            <DataGrid Margin="5" Name="GrdUser" AutoGenerateColumns="False">
+                <DataGrid.Resources>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Background" Value="{Binding Result,Converter={StaticResource resultColorConvert}}"/>
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="40"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                    <DataGridTextColumn Header="Result" Binding="{Binding Result}" Width="80"/>
+                    <DataGridTextColumn Header="Result" Binding="{Binding Result, Converter={StaticResource resultConvert}}" Width="80"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <TextBox Name="txtBox" Margin="5"></TextBox>
+        <TextBlock Margin="5" Text="{Binding ElementName=txtBox, Path=Text}"></TextBlock>
+        <CheckBox Margin="5" IsChecked="{Binding ElementName=txtBox, Path=Text, 
+            Converter={StaticResource yesNoConvert},ConverterParameter=farsi,ConverterCulture=fa}"></CheckBox>
+        <CheckBox Margin="5" IsChecked="{Binding ElementName=txtBox, Path=Text, 
+            Converter={StaticResource yesNoConvert},ConverterParameter=english,ConverterCulture=fa}"></CheckBox>
+            
+    </StackPanel>
+</Window>

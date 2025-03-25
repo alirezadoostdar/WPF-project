@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WPFTest"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="/ModeBinding/RespondingChange.xaml">
+             StartupUri="/Converters/ConvertWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>
