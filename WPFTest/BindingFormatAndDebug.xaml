@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFTest.BindingFormatAndDebug"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="BindingFormatAndDebug" Height="350" Width="400">
+    <StackPanel>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}}"></TextBlock>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, StringFormat=Today Date: {0: dddd dd MMMM yyyy}}"></TextBlock>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, StringFormat=Short Date: {0: d}}"></TextBlock>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now},ConverterCulture=en, StringFormat={}{0:F}}"></TextBlock>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now},ConverterCulture=de, StringFormat={}{0:F}}"></TextBlock>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now},ConverterCulture=fr, StringFormat={}{0:F}}"></TextBlock>
+        <TextBlock Text="{Binding Source={x:Static system:DateTime.Now},ConverterCulture=fa, StringFormat={}{0:F}}"></TextBlock>
+    </StackPanel>
+</Window>
