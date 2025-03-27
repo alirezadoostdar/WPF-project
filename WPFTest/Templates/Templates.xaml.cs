@@ -30,5 +30,12 @@ namespace WPFTest.Templates
             win.Owner = this;
             win.ShowDialog();
         }
+
+        private void btnDataTemplate_Click(object sender, RoutedEventArgs e)
+        {
+            var win  = new DataTemplate();
+            win.Owner = this;
+            win.ShowDialog();
+        }
     }
 }

@@ -10,10 +10,18 @@
 
   <ItemGroup>
     <None Remove="Images\Basket.png" />
+    <None Remove="Images\CSharp.jpg" />
+    <None Remove="Images\Generics.jpg" />
+    <None Remove="Images\Interface.jpg" />
+    <None Remove="Images\WPF.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\Basket.png" />
+    <Resource Include="Images\CSharp.jpg" />
+    <Resource Include="Images\Generics.jpg" />
+    <Resource Include="Images\Interface.jpg" />
+    <Resource Include="Images\WPF.jpg" />
   </ItemGroup>
 
 </Project>
